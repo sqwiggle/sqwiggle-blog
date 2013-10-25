@@ -922,10 +922,10 @@ ul.nav-menu li:hover > ul,
 
 /* Navbar */
 .navbar {
-	background-color: #f7f5e7;
 	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
+	padding: 0 0 25px 0;
 }
 
 .site-header .search-form {

@@ -1,0 +1,407 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Header Images\n"
+"POT-Creation-Date: 2013-03-30 17:44+0100\n"
+"PO-Revision-Date: 2013-03-30 17:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: David Stöckl <admin@blackbam.at>\n"
+"Language: deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wp-test\\local\\wp-content\\plugins"
+"\\custom-header-images\n"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:69
+msgid "Settings: Header Images"
+msgstr "Einstellungen: Header Images"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:151
+msgid "Settings saved successfully."
+msgstr "Einstellungen erfolgreich gespeichert."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:160
+#, php-format
+msgid "Please consider %s donating %s. Thank you."
+msgstr "Bitte erwägen Sie %s zu spenden %s. Danke."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:161
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:168
+msgid "Note:"
+msgstr "Beachte:"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:161
+msgid ""
+"If you host your images on your site (recommended), than you upload these "
+"using the media library:"
+msgstr ""
+"Falls die Bilder auf ihrer Seite gehostet werden (empfohlen), dann werden "
+"diese über die Mediathek hochgeladen:"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:163
+#, php-format
+msgid ""
+"Go to the %s media library %s and upload your images (or use an external "
+"absolute image URL)"
+msgstr ""
+"Besuche die %s Mediathek %s und lade die Bilder hoch (oder benutze eine "
+"externe Bild-URL)"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:165
+msgid ""
+"Copy the file-URL(s) of your image(s) and copy it to the desired position in "
+"this page"
+msgstr ""
+"Die Datei-URL(s) der Bilder kopierieren und an die gewünschte Position in "
+"dieser Seite einfügen"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:166
+msgid "Save the settings"
+msgstr "Einstellungen speichern"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:169
+msgid ""
+"Just leave the fields blank to display the global default image or no image."
+msgstr ""
+"Die Felder nicht ausfüllen um das Standard-Bild / gar kein Bild anzuzeigen."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:170
+msgid "Post, Page, Category and Taxonomy Images are set in the posts menu."
+msgstr ""
+"Artikel, Seite, Kategorie und Taxonomie Bilder werden im Artikel Menü "
+"festgelegt."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:171
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:175
+msgid "Use Header Image Links?"
+msgstr "Verlinkungen für Header-Images verwenden?"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:177
+msgid "If this is checked, header image links are enabled."
+msgstr "Wenn diese Option ausgewählt ist, ist das Link-Feature aktiviert."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:180
+msgid "Default Header Image Width"
+msgstr "Standard Header Image Breite"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:182
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:245
+msgid "The image displayed on the article overview page."
+msgstr "Das Bild, das in der Artikelübersicht angezeigt wird."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:185
+msgid "Default Header Image Height"
+msgstr "Standard Header Image Höhe"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:187
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:255
+msgid "The image displayed on a static frontpage."
+msgstr "Das Bild das auf der statischen Startseite angezeigt wird."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:190
+msgid "Display nothing by default?"
+msgstr "Standardmäßig nichts anzeigen?"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:192
+msgid ""
+"If this option is on, the Plugin displayes nothing, if no concrete image is "
+"specified."
+msgstr ""
+"Falls dies Option ausgewählt ist, erzeugt das Plugin keine Ausgabe, falls "
+"kein konkrete Bild festgelegt ist."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:195
+msgid ""
+"Display category image in case of missing post / page / post-type image?"
+msgstr ""
+"Kategorie-Bild anzeigen, für den Fall dass kein Artikel- / Seiten- / Post-"
+"Type Bild festgelegt ist?"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:197
+msgid ""
+"If this option is on, the Plugin displays the category image (if existing), "
+"in case of missing specific image for post/page/post-type."
+msgstr ""
+"Falls diese Option aktiviert ist, zeigt das Plugin das Kategorie Bild an "
+"(falls eines festgelegt ist), für den Fall, dass kein konkretes Artikel-/"
+"Seiten-/Post-Type Bild festgelegt ist."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:200
+msgid "Exclude the following post types (by slug, comma seperated):"
+msgstr ""
+"Die folgenden Post-Types von der Header-Image Funktionalität ausschließen "
+"(den \"slug\" verwenden, mit Komma trennen):"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:202
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:211
+msgid "Possible values:"
+msgstr "Mögliche Werte:"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:209
+msgid "Exclude the following taxonomies (by slug, comma seperated):"
+msgstr ""
+"Die folgenden Taxonomieen ausschließen (nach \"slug\", mit Komma getrennt):"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:221
+msgid "Image Settings"
+msgstr "Bild Einstellungen"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:225
+msgid "Global Image Default URL"
+msgstr "Globale Bild Default URL"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:229
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:242
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:252
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:262
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:272
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:285
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:295
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:308
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:318
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:328
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:337
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:347
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:357
+msgid "Linked URL:"
+msgstr "Verlinkte URL:"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:232
+msgid "The image displayed on all pages, which have no set default."
+msgstr ""
+"Das Bild wird auf allen Seiten angezeigt, die keinen anderen Standard "
+"festgelegt haben."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:235
+msgid "Special Pages"
+msgstr "Spezialseiten"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:238
+msgid "Home Image URL"
+msgstr "Bild-URL auf der \"Home\" Seite (Artikelübersicht)"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:248
+msgid "Frontpage Image URL"
+msgstr "Bild URL auf der \"Frontpage\" (Statische Startseite)"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:258
+msgid "404 Image URL"
+msgstr "404 Bild URL"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:265
+msgid "The image displayed on error pages."
+msgstr "Das Bild, das auf Fehlerseiten angezeigt wird."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:268
+msgid "Search Image URL"
+msgstr "Bild URL auf der Such-Seite"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:275
+msgid "The image displayed on search pages."
+msgstr "Die Bild URL, die auf der Such-Seite angezeigt wird."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:278
+msgid "Posts &amp; Pages"
+msgstr "Artikel &amp; Seiten"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:281
+msgid "Single Post Default Image URL"
+msgstr "Artikel-Ansicht Standard Bild URL"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:288
+msgid "The image displayed on single posts by default."
+msgstr ""
+"Das Bild, das angezeigt wird, wenn ein Artikel kein konkreteres Bild "
+"festgelegt hat."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:291
+msgid "Page Image Default URL"
+msgstr "Seiten Bild Standard URL"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:298
+msgid "The image displayed on pages by default."
+msgstr "Das Bild das standardmäßig auf Seiten angezeigt wird."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:301
+msgid "Archive Pages"
+msgstr "Archiv-Seiten"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:304
+msgid "Archive Default Image URL"
+msgstr "Archiv Standard Bild URL"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:311
+msgid "The image displayed on archive pages by default."
+msgstr "Das Bild das standardmäüßig auf Archiv-Seiten angezeigt wird."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:314
+msgid "Date Image URL"
+msgstr "Datums-Archiv Bild URL"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:321
+msgid "The image displayed on date archive pages."
+msgstr "Das Bild das standardmäßíg in Datums-Archiven angezeigt wird."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:324
+msgid "Author Image Default URL"
+msgstr "Autoren Bild Default URL"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:330
+msgid "The image displayed on author pages by default."
+msgstr "Das Bild das standardmäßig auf Autoren-Seiten angezeigt wird."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:333
+msgid "Category Image Default URL"
+msgstr "Kategorie-Bild Standard URL"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:340
+msgid "The image displayed on category pages by default."
+msgstr "Das Bild das standardmäßig auf Kategorie-Seiten angezeigt wird."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:343
+msgid "Tag Image Default URL"
+msgstr "Schlagwort-Bild default URL"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:350
+msgid "The image displayed on tag pages by default."
+msgstr "Das Bild das standardmäßig auf Schlagwort-Seiten angezeigt wird."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:353
+msgid "Taxonomy Image Default URL"
+msgstr "Taxonomie Bild Default URL"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:360
+msgid "The image displayed on taxonomy pages by default."
+msgstr ""
+"Das Bild das standardmäßig auf Taxonomie-Übersichts-Seiten angezeigt wird."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:365
+msgid "Custom Output"
+msgstr "Benutzerdefinierte Ausgabe"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:366
+msgid ""
+"For reasons of responsiveness and more flexibility, you may want to adjust "
+"the output of the Plugin to your needs.Use any HTML, CSS and even JavaScript "
+"to customize your output. Leave empty for standard output."
+msgstr ""
+"Für Fortgeschrittene: Damit das Plugin eine bessere Flexibilität (z.B. für "
+"responsive Webdesign) anbieten kann, kann hier ein manueller Output "
+"festgelegt werden. Es kann beliebiges HTML, CSS und sogar JavaScript "
+"verwendet werden. Wenn dieses Feld nicht ausgefüllt wird, wird die Standard-"
+"Ausgabe verwendet."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:377
+msgid "Important"
+msgstr "Wichtig"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:377
+msgid ""
+"Use the following shortcodes, or you will not see your header images "
+"correctly:"
+msgstr ""
+"Die folgenden Shortcodes sollten unbedingt verwendet werden, oder die "
+"Ausgabe wird nicht richtig funktionieren."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:379
+msgid "The header image URL"
+msgstr "Die Bild-Datei URL"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:380
+msgid "The header image Link"
+msgstr "Der Bild-Datei Link"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:381
+msgid "The header image defined width"
+msgstr "Die definierte Breite des Header-Bilds"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:382
+msgid "The header image defined height"
+msgstr "Die definierte Höhe des Header-Bilds"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:384
+msgid "Caution"
+msgstr "Warnung"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:384
+msgid "Be careful, you should know what you are doing."
+msgstr ""
+"Diese Funktion sollte nur verwendet werden, wenn man genau weiß, was man tut."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:385
+#, php-format
+msgid "In case of troubles, you can use %s restore default %s."
+msgstr ""
+"Falls es Probleme gibt, kann %s hier der Standard wiederhergestellt werden "
+"%s."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:391
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:412
+msgid "Custom Header Image"
+msgstr "Benutzerdefiniertes Header Bild"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:425
+msgid "URL of the Custom Header Image"
+msgstr "URL des Header-Bilds"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:432
+msgid "Link of the Custom Header Image"
+msgstr "Verlinkung des Header Bilds"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:439
+msgid "Display nothing?"
+msgstr "Nichts anzeigen?"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:494
+msgid "Taxonomy Image Url (The Image)"
+msgstr "Taxonomie Bild URL (Das Bild)"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:497
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:529
+msgid ""
+"The Taxonomy Thumbnail URL - please use relative path like /wp-content/.."
+"path_to_image/image.jpg"
+msgstr ""
+"Der Pfad zum Taxonomie Bild - relativer Pfad wird empfohlen (z.B. /wp-"
+"content/..path_to_image/image.jpg)"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:502
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:533
+msgid "Taxonomy Image Link (Link of the Image)"
+msgstr "Taxonomie Bild Link (Die Verlinkung des Taxonomie-Bilds)"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:505
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:535
+msgid ""
+"Use this, if you want to link the Taxonomy Image to some url e.g. http://"
+"myblog.org/taxonomy-overview/"
+msgstr ""
+"Diese Option wählen, falls das Taxonomie Bild verlinkt sein soll (z.B. "
+"http://myblog.org/taxonomy-overview/)."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:510
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:539
+msgid "Display no header image?"
+msgstr "Kein Header-Bild anzeigen?"
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:513
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:541
+msgid "If this is checked, no header image will be displayed."
+msgstr "Falls diese Option gewählt ist, wird kein Header-bild angezeigt."
+
+#: C:\xampp\htdocs\wp-test\local\wp-content\plugins\custom-header-images/custom-header-images.php:527
+msgid "Taxonomy Image Url"
+msgstr "Taxonomie Bild URL"
+
+#~ msgid "Custom Header image URL"
+#~ msgstr "URL des benutzerdefinierten Header-Bilds"
