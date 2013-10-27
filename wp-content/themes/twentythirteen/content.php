@@ -24,10 +24,10 @@
 		</h1>
 		<?php endif; // is_single() ?>
 
-		<div class="entry-meta">
+		<!--<div class="entry-meta">
 			<?php twentythirteen_entry_meta(); ?>
 			<?php edit_post_link( __( 'Edit', 'twentythirteen' ), '<span class="edit-link">', '</span>' ); ?>
-		</div><!-- .entry-meta -->
+		</div>-->
 	</header><!-- .entry-header -->
 
 	<?php if ( is_search() ) : // Only display Excerpts for Search ?>

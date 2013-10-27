@@ -28,7 +28,6 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
-	<!--<?php if(function_exists('chi_display_header')) { chi_display_header(); } ?>-->
 </head>
 
 <body <?php body_class(); ?>>
@@ -40,13 +39,13 @@
 			</a>
 
 			<div id="navbar" class="navbar">
-				<div id="site-navigation" class="navigation main-navigation" role="navigation">
+				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
 					<!--<h3 class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></h3>
 					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>-->
 					<img src="/wp-content/uploads/2013/10/sqwiggle_logo.png" alt="Sqwiggle Logo" />
-					<?php get_search_form(); ?>
-				</div><!-- #site-navigation -->
+					<!--<?php get_search_form(); ?>-->
+				</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->
 		</header><!-- #masthead -->
 
