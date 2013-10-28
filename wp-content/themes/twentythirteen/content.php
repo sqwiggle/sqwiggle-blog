@@ -17,26 +17,29 @@
 		<?php endif; ?>
 
 		<?php if ( is_single() ) : ?>
-		<h1 class="entry-title"><?php the_title(); ?></h1>
+		<h1 class="entry-title"><?php the_title(); ?>test</h1>
 		<?php else : ?>
 		<h1 class="entry-title">
 			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 		</h1>
 		<?php endif; // is_single() ?>
-
+		<span class="author-meta">by &nbsp;<a href="<?php the_author_url(); ?>" target="_blank"><?php the_author(); ?></a>, <?php the_author_description(); ?></span>
+		<div class="share-meta">
+			<a href="#"><img src="/wp-content/uploads/2013/10/twitter.png" alt="Share on Twitter" /></a>
+			<a href="#"><img src="/wp-content/uploads/2013/10/facebook.png" alt="Share on Facebook" /></a>
+		</div>
 		<!--<div class="entry-meta">
 			<?php twentythirteen_entry_meta(); ?>
 			<?php edit_post_link( __( 'Edit', 'twentythirteen' ), '<span class="edit-link">', '</span>' ); ?>
 		</div>-->
 	</header><!-- .entry-header -->
-
 	<?php if ( is_search() ) : // Only display Excerpts for Search ?>
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
-		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentythirteen' ) ); ?>
+		<?php the_content( __( 'Read More..', 'twentythirteen' ) ); ?>
 		<?php wp_link_pages( array( 'before' => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'twentythirteen' ) . '</span>', 'after' => '</div>', 'link_before' => '<span>', 'link_after' => '</span>' ) ); ?>
 	</div><!-- .entry-content -->
 	<?php endif; ?>
