@@ -97,7 +97,7 @@ function twentythirteen_header_style() {
 		if ( ! empty( $header_image ) ) :
 	?>
 		.site-header {
-			background: url(<?php header_image(); ?>) no-repeat scroll top;
+			background: url(<?php header_image(); ?>) no-repeat scroll bottom;
 			background-size: 1600px auto;
 		}
 	<?php
