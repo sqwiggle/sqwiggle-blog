@@ -455,6 +455,10 @@ function twentythirteen_get_link_url() {
 	return ( $has_url ) ? $has_url : apply_filters( 'the_permalink', get_permalink() );
 }
 
+function twentythirteen_comment_link() {
+    
+}
+
 /**
  * Extends the default WordPress body classes.
  *
