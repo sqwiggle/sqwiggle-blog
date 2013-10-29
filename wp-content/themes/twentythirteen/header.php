@@ -43,7 +43,11 @@
 					<!--<h3 class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></h3>
 					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>-->
-					<img src="/wp-content/uploads/2013/10/sqwiggle_logo.png" alt="Sqwiggle Logo" />
+					<a href="http://www.sqwiggle.com" alt="Sqwiggle" target="_blank"><img src="/wp-content/uploads/2013/10/sqwiggle_logo.png" alt="Sqwiggle Logo" /></a>
+					<div class="subscribe_parent">
+						<div class="subscribe_button"></div>
+						<a href="http://feeds.feedburner.com/sqwiggle" target="_blank" alt="Subscribe!" class="sub_link" style="position: absolute; top: 11px; left: 21px; color: #fff; font-weight: 200; font-size: 17px;">Subscribe to the Sqwiggle Blog!</a>
+					</div>
 					<!--<?php get_search_form(); ?>-->
 				</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->
