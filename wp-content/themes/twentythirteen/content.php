@@ -17,7 +17,7 @@
 		<?php endif; ?>
 
 		<?php if ( is_single() ) : ?>
-		<h1 class="entry-title"><?php the_title(); ?>test</h1>
+		<h1 class="entry-title"><?php the_title(); ?></h1>
 		<?php else : ?>
 		<h1 class="entry-title">
 			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
@@ -25,9 +25,8 @@
 		<?php endif; // is_single() ?>
 		<span class="author-meta">by &nbsp;<a href="<?php the_author_url(); ?>" target="_blank"><?php the_author(); ?></a>, <?php the_author_description(); ?></span>
 		<div class="share-meta">
-			<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en"><img src="/wp-content/uploads/2013/10/twitter.png" alt="Share on Twitter" /></a>
-			<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en"><img src="/wp-content/uploads/2013/10/facebook.png" alt="Share on Facebook" /></a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			<a href="https://twitter.com/share"><img src="/wp-content/uploads/2013/10/twitter.png" alt="Share on Twitter" /></a>
+			<a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 'facebook-share-dialog', 'width=626,height=436'); return false;"><img src="/wp-content/uploads/2013/10/facebook.png" alt="Share on Facebook" /></a>
 		</div>
 		<!--<div class="entry-meta">
 			<?php twentythirteen_entry_meta(); ?>
