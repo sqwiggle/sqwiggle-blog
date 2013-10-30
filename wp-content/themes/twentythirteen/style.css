@@ -567,7 +567,7 @@ hr {
 button,
 input,
 textarea {
-	border: 2px solid #d4d0ba;
+	border: 0px;
 	font-family: inherit;
 	padding: 5px;
 }
@@ -579,7 +579,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-	border: 2px solid #c3c0ab;
+	border: 0px;
 	outline: 0;
 }
 
@@ -588,15 +588,12 @@ button,
 input[type="submit"],
 input[type="button"],
 input[type="reset"] {
-	background: #e05d22; /* Old browsers */
-	background: -webkit-linear-gradient(top, #e05d22 0%, #d94412 100%); /* Chrome 10+, Safari 5.1+ */
-	background:   linear-gradient(to bottom, #e05d22 0%, #d94412 100%); /* W3C */
+	background: #69c04f; /* Old browsers */
 	border: none;
-	border-bottom: 3px solid #b93207;
-	border-radius: 2px;
+	border-radius: 3px;
 	color: #fff;
 	display: inline-block;
-	padding: 11px 24px 10px;
+	padding: 11px 24px 10px 19px;
 	text-decoration: none;
 }
 
@@ -608,22 +605,8 @@ input[type="reset"]:hover,
 input[type="submit"]:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus {
-	background: #ed6a31; /* Old browsers */
-	background: -webkit-linear-gradient(top, #ed6a31 0%, #e55627 100%); /* Chrome 10+, Safari 5.1+ */
-	background:   linear-gradient(to bottom, #ed6a31 0%, #e55627 100%); /* W3C */
+	background: #71c857; /* Old browsers */
 	outline: none;
-}
-
-button:active,
-input[type="submit"]:active,
-input[type="button"]:active,
-input[type="reset"]:active {
-	background: #d94412; /* Old browsers */
-	background: -webkit-linear-gradient(top, #d94412 0%, #e05d22 100%); /* Chrome 10+, Safari 5.1+ */
-	background:   linear-gradient(to bottom, #d94412 0%, #e05d22 100%); /* W3C */
-	border: none;
-	border-top: 3px solid #b93207;
-	padding: 10px 24px 11px;
 }
 
 .post-password-required input[type="submit"] {
@@ -833,34 +816,42 @@ img.wp-smiley,
 	margin: 0;
 }
 
-.subscribe_parent {
-	width: 275px;
-	height: 55px;
-	float: right;
-	position:relative;
-	margin-top: 2px;
-}
-
-a.subscribe_parent {
-	position: absolute;
-	top: 0px;
-}
-
-.subscribe_button {
-	width: 275px;
+.subscribe_submit {
 	height: 45px;
-	background: #fff;
+}
+
+.subscribe_form {
+	height: 60px;
+	width: 400px;
+	float: right;
+	margin-top: 45px;
+}
+
+span.subscribe_form {
+	width: 150px;
+	font-size: 15px;
+	color: #fff;
+}
+
+.subscribe_input {
+	height: 46px;
+	width: 275px;
+	background-color: rgba(0, 0, 0, 0.5);
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	-moz-background-clip: padding;
-	float: right;
-	opacity: 0.3;
+	border: 0px;
+	padding: 0px 0 3px 20px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 50;
+	font-family: 'Open sans','HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 
-.subscribe_button span {
-	color: #fff;
-	font-style: italic;
+.subscribe_submit {
+	width: 110px;
+	font-size: 18px;
 }
 
 
@@ -873,7 +864,7 @@ a.subscribe_parent {
 	clear: both;
 	margin: 0 auto;
 	max-width: 1080px;
-	min-height: 45px;
+	min-height: 100px;
 	position: relative;
 }
 
@@ -956,7 +947,15 @@ ul.nav-menu li:hover > ul,
 	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
-	padding: 0 0 25px 0;
+	padding: 0;
+	background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
+	background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
+	background-image: -webkit-gradient(bottom, 0 0, 100% 0, from(rgba(0, 0, 0, 0.5)), to(rgba(255, 255, 255, 0)));
+	background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
+	background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
+	background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(0, 0, 0, 0.5)', endColorstr='rgba(255, 255, 255, 0)', GradientType=1);
 }
 
 .site-header .search-form {
@@ -1136,7 +1135,7 @@ h2.author-title {
 
 .share-meta {
 	margin-bottom: 15px;
-	width: 95px;
+	width: 150px;
 	float: right;
 }
 
@@ -1255,7 +1254,8 @@ footer.entry-meta {
 }
 
 .rp-header {
-	margin-bottom: 10px;
+	margin-top: 40px;
+	margin-bottom: 14px;
 	font-size: 30px;
 }
 

@@ -43,11 +43,13 @@
 					<!--<h3 class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></h3>
 					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>-->
-					<a href="http://www.sqwiggle.com" alt="Sqwiggle" target="_blank"><img src="/wp-content/uploads/2013/10/sqwiggle_logo.png" alt="Sqwiggle Logo" /></a>
-					<div class="subscribe_parent">
-						<div class="subscribe_button"></div>
-						<a href="http://feeds.feedburner.com/sqwiggle" target="_blank" alt="Subscribe!" class="sub_link" style="position: absolute; top: 11px; left: 21px; color: #fff; font-weight: 200; font-size: 17px;">Subscribe to the Sqwiggle Blog!</a>
-					</div>
+					<a href="http://www.sqwiggle.com" alt="Sqwiggle" target="_blank" style="margin-top: 40px; padding-bottom: 20px; float: left;"><img src="/wp-content/uploads/2013/10/sqwiggle_logo.png" alt="Sqwiggle Logo" /></a>
+					<form action="http://feedburner.google.com/fb/a/mailverify" style="padding-bottom: 20px; method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=sqwiggle', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" class="subscribe_form">
+						<input type="text" name="email" class="subscribe_input" onfocus="if (this.value==this.defaultValue) this.value = ''" onblur="if (this.value=='') this.value = this.defaultValue" value="Subscribe via Email">
+						<input type="hidden" value="sqwiggle" name="uri">
+						<input type="hidden" name="loc" value="en_US">
+						<input type="submit" class="subscribe_submit" value="Subscribe">
+					</form>
 					<!--<?php get_search_form(); ?>-->
 				</nav><!-- #site-navigation -->
 			</div><!-- #navbar -->

@@ -11,7 +11,7 @@ get_header(); ?>
 <?php $custom_fields = get_post_custom($post_id); ?>
 <div class="image-credit">
 	<span>Image Credit:</span>
-	<a href="<?php echo $custom_fields["Image Credit Url"][0] ?>"><?php echo $custom_fields["Image Credit"][0] ?></a>
+	<a href="<?php echo $custom_fields["Image Credit URL"][0] ?>" target="_blank"><?php echo $custom_fields["Image Credit"][0] ?></a>
 </div>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
@@ -38,8 +38,16 @@ get_header(); ?>
 				
 
 			<?php endwhile; ?>
-
 		</div>
 	</div>
-
+	<!--<h1 class="rp-header">More Posts by the Sqwiggle Team</h1>
+		<div class="recent-posts-container">
+			<?php
+				$args = array( 'numberposts' => '3' );
+				$recent_posts = wp_get_recent_posts( $args );
+				foreach( $recent_posts as $recent ){
+					echo '<div class="recent-post rp-margin"><a href="' . get_permalink($recent["ID"]) . '" title="Look '.esc_attr($recent["post_title"]).'" >' .   $recent["post_title"].'</a> </div> ';
+				}
+			?>
+		</div>-->
 <?php get_footer(); ?>
