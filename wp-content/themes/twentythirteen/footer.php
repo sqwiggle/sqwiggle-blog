@@ -12,6 +12,16 @@
 ?>
 
 		</div>
+		<h1 class="rp-header">More Posts by the Sqwiggle Team</h1>
+		<div class="recent-posts-container">
+			<?php
+				$args = array( 'numberposts' => '3' );
+				$recent_posts = wp_get_recent_posts( $args );
+				foreach( $recent_posts as $recent ){
+					echo '<div class="recent-post rp-margin"><a href="' . get_permalink($recent["ID"]) . '" title="Look '.esc_attr($recent["post_title"]).'" >' .   $recent["post_title"].'</a> </div> ';
+				}
+			?>
+		</div>
 		<!--<footer id="colophon" class="site-footer" role="contentinfo">
 
 			<!--<div class="site-info">

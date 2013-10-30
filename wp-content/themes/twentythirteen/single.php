@@ -8,7 +8,11 @@
  */
 
 get_header(); ?>
-<?php the_meta(); ?>
+<?php $custom_fields = get_post_custom($post_id); ?>
+<div class="image-credit">
+	<span>Image Credit:</span>
+	<a href="<?php echo $custom_fields["Image Credit Url"][0] ?>"><?php echo $custom_fields["Image Credit"][0] ?></a>
+</div>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
@@ -17,12 +21,25 @@ get_header(); ?>
 
 				<?php get_template_part( 'content', get_post_format() ); ?>
 				<?php twentythirteen_post_nav(); ?>
-				<?php comments_template(); ?>
+				<div id="disqus_thread" style="width: 1080px; margin: 0 auto;"></div>
+				<script type="text/javascript">
+				    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+				    var disqus_shortname = 'sqwiggle'; // required: replace example with your forum shortname
+			    
+				    /* * * DON'T EDIT BELOW THIS LINE * * */
+				    (function() {
+					var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+					dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+					(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				    })();
+				</script>
+				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 				
 
 			<?php endwhile; ?>
 
-		</div><!-- #content -->
-	</div><!-- #primary -->
+		</div>
+	</div>
 
 <?php get_footer(); ?>

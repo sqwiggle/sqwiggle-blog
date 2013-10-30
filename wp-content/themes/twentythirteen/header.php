@@ -32,7 +32,7 @@
 
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed site">
-		<header id="masthead" class="site-header" role="banner">
+		<header id="masthead" class="site-header" style="background-position: center; background-size:1600px; background-image: url('<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) ); ?>')" role="banner">
 			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
