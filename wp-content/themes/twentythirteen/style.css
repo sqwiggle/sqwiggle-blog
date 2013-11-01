@@ -1139,9 +1139,11 @@ h2.author-title {
 }
 
 .image-credit {
+	position: absolute;
+	top: 0;
+	right: 0;
 	width: 250px;
 	height: 40px;
-	float: right;
 	font-size: 11px;
 	text-align: right;
 }
@@ -1987,6 +1989,7 @@ footer.entry-meta {
 .paging-navigation {
 	background-color: #e8e5ce;
 	padding: 40px 0;
+	display: none;
 }
 
 .paging-navigation .nav-links {
