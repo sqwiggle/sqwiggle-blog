@@ -1133,7 +1133,7 @@ h2.author-title {
 }
 
 .share-meta {
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 	width: 150px;
 	float: right;
 }
@@ -1162,7 +1162,13 @@ h2.author-title {
 .entry-content p {
 	width: 100%;
 	float: left;
-	margin-top: 20px;
+	margin-top: 5px;
+	line-height: 40px;
+}
+
+.entry-content ul {
+	width: 100%;
+	list-style-type: none;
 }
 
 .entry-content a,
@@ -2902,6 +2908,10 @@ footer.entry-meta {
 	
 	.entry-content, .entry-content blockquote {
 		font-size: 17px;
+	}
+	
+	.entry-content p {
+		line-height: 25px;
 	}
 	
 	h1.entry-title {
