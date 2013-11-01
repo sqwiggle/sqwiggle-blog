@@ -1138,6 +1138,33 @@ h2.author-title {
 	float: right;
 }
 
+.share-meta span {
+	margin: 10px 8px 0 0;
+}
+
+.custom-tweet-button, .custom-facebook-button {
+	height: 43px;
+	width: 43px;
+	float: left;
+}
+
+.custom-tweet-button {
+	background: url('/wp-content/uploads/2013/11/twitter_2.png');
+	margin-right: 8px;
+}
+
+.custom-tweet-button:hover {
+	background: url('/wp-content/uploads/2013/10/twitter.png');
+}
+
+.custom-facebook-button {
+	background: url('/wp-content/uploads/2013/11/facebook_2.png');
+}
+
+.custom-facebook-button:hover {
+	background: url('/wp-content/uploads/2013/10/facebook.png');
+}
+
 .image-credit {
 	position: absolute;
 	top: 0;
@@ -1191,6 +1218,7 @@ h2.author-title {
 .entry-content a:hover,
 .comment-content a:hover {
 	color: #0ca6d2;
+	text-decoration: underline;
 }
 
 .entry-content blockquote {
@@ -1215,7 +1243,7 @@ h2.author-title {
 .more-link {
 	height: 55px;
 	width: 158px;
-	padding: 13px 0 0 33px;
+	padding: 8px 0 0 33px;
 	background: #69c04f;
 	float: left;
 	font-size: 18px;
@@ -1228,8 +1256,9 @@ a.more-link {
 	border-radius: 3px;
 }
 
-.more-link a:hover {
+.entry-content .more-link:hover {
 	color: #fff;
+	background-color: #73c45a;
 }
 
 ul.post-meta {
