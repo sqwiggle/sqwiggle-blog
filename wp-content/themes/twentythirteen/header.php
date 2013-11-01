@@ -30,10 +30,14 @@
 	<![endif]-->
 	<?php wp_head(); ?>
 </head>
-
+<?php $custom_fields = get_post_custom($post_id); ?>
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header" style="background-position: center; background-size:1600px; background-image: url('<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) ); ?>')" role="banner">
+			<div class="image-credit">
+				<span>Image Credit:</span>
+				<a href="<?php echo $custom_fields["Image Credit URL"][0] ?>" target="_blank"><?php echo $custom_fields["Image Credit"][0] ?></a>
+			</div>
 			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 				<h1 class="site-title"></h1>
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>

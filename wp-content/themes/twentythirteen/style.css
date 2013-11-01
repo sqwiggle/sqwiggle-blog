@@ -1146,6 +1146,16 @@ h2.author-title {
 	height: 40px;
 	font-size: 11px;
 	text-align: right;
+	margin-right: 5px;
+}
+
+.image-credit a, .image-credit span {
+	color: #fff;
+	opacity: .65;
+}
+
+.image-credit a:hover {
+	color: #fff;
 }
 
 /**

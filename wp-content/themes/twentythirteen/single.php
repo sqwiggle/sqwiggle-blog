@@ -8,11 +8,11 @@
  */
 
 get_header(); ?>
-<?php $custom_fields = get_post_custom($post_id); ?>
-<div class="image-credit">
+
+<!--<div class="image-credit">
 	<span>Image Credit:</span>
 	<a href="<?php echo $custom_fields["Image Credit URL"][0] ?>" target="_blank"><?php echo $custom_fields["Image Credit"][0] ?></a>
-</div>
+</div>-->
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
