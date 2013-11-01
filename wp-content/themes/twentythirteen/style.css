@@ -1136,6 +1136,35 @@ h2.author-title {
 	margin-bottom: 25px;
 	width: 150px;
 	float: right;
+	margin-right: 8px;
+}
+
+.share-meta span {
+	float: left;
+	margin: 12px 5px 0 0;
+}
+
+.custom-tweet-button, .custom-facebook-button {
+	height: 43px;
+	width: 43px;
+	float: left;
+}
+
+.custom-tweet-button {
+	background: url('/wp-content/uploads/2013/11/twitter_2.png');
+	margin-right: 5px;
+}
+
+.custom-tweet-button:hover {
+	background: url('/wp-content/uploads/2013/10/twitter.png');
+}
+
+.custom-facebook-button {
+	background: url('/wp-content/uploads/2013/11/facebook_2.png');
+}
+
+.custom-facebook-button:hover {
+	background: url('/wp-content/uploads/2013/10/facebook.png');
 }
 
 .share-meta span {
@@ -1205,6 +1234,10 @@ h2.author-title {
 	line-height: 40px;
 }
 
+.entry-content p a:hover {
+	text-decoration: underline;
+}
+
 .entry-content ul {
 	width: 100%;
 	list-style-type: none;
@@ -1243,7 +1276,11 @@ h2.author-title {
 .more-link {
 	height: 55px;
 	width: 158px;
+<<<<<<< HEAD
 	padding: 8px 0 0 33px;
+=======
+	padding: 7px 0 0 32px;
+>>>>>>> theme4
 	background: #69c04f;
 	float: left;
 	font-size: 18px;
@@ -1258,7 +1295,11 @@ a.more-link {
 
 .entry-content .more-link:hover {
 	color: #fff;
+<<<<<<< HEAD
 	background-color: #73c45a;
+=======
+	background: #73c45a;
+>>>>>>> theme4
 }
 
 ul.post-meta {
@@ -2148,7 +2189,7 @@ footer.entry-meta {
 	height: 62px;
 	float: left;
 	text-size: 16px;
-	padding: 12px 0px 0px 25px;
+	padding: 10px 0px 0px 25px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
