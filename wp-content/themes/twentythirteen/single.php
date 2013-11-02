@@ -21,6 +21,9 @@ get_header(); ?>
 
 				<?php get_template_part( 'content', get_post_format() ); ?>
 				<?php twentythirteen_post_nav(); ?>
+				<div style="margin: 0 auto; width: 850px; background: url('/wp-content/uploads/2013/11/beach2.jpg'); background-size:950px 633px; height: 100px; background-position: bottom; margin-bottom: 100px;" class="sqwiggle_cta">
+					<a href="http://www.sqwiggle.com?utm_campaign=blog">Work has changed. Join the revolution.</a>
+				</div>
 				<div id="disqus_thread" style="width: 850px; margin: 0 auto;"></div>
 				<script type="text/javascript">
 				    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -35,7 +38,7 @@ get_header(); ?>
 				</script>
 				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 				<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-				
+
 
 			<?php endwhile; ?>
 		</div>

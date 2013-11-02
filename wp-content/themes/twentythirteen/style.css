@@ -819,7 +819,7 @@ img.wp-smiley,
 
 .subscribe_form {
 	height: 60px;
-	width: 420px;
+	width: 405px;
 	float: right;
 	margin-top: 45px;
 }
@@ -831,7 +831,7 @@ span.subscribe_form {
 }
 
 .subscribe_input {
-	height: 46px;
+	height: 47px;
 	width: 275px;
 	background-color: rgba(0, 0, 0, 0.5);
 	-webkit-border-radius: 3px;
@@ -841,16 +841,23 @@ span.subscribe_form {
 	border: 0px;
 	padding: 0px 0 3px 20px;
 	color: #fff;
+	float: left;
 	font-size: 18px;
 	font-weight: 50;
+	color: rgba(255, 255, 255, 0.6);
 	font-family: 'Open sans','HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 
 .subscribe_submit {
-	height: 45px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	float: left;
+	margin-left: 4px;
+	height: 47px;
 	width: 120px;
-	font-size: 17px;
-	padding: 0 0 0 10px;
+	font-size: 16px;
+	padding: 0 0 0 12px;
 }
 
 
@@ -1141,7 +1148,7 @@ h2.author-title {
 
 .share-meta span {
 	float: left;
-	margin: 12px 5px 0 0;
+	margin: 13px 5px 0 0;
 }
 
 .custom-tweet-button, .custom-facebook-button {
@@ -1165,10 +1172,6 @@ h2.author-title {
 
 .custom-facebook-button:hover {
 	background: url('/wp-content/uploads/2013/10/facebook.png');
-}
-
-.share-meta span {
-	margin: 10px 8px 0 0;
 }
 
 .custom-tweet-button, .custom-facebook-button {
@@ -1291,11 +1294,7 @@ a.more-link {
 
 .entry-content .more-link:hover {
 	color: #fff;
-<<<<<<< HEAD
-	background-color: #73c45a;
-=======
 	background: #73c45a;
->>>>>>> theme4
 }
 
 ul.post-meta {
@@ -1345,6 +1344,18 @@ footer.entry-meta {
 	margin-top: 40px;
 	margin-bottom: 14px;
 	font-size: 30px;
+}
+
+.sqwiggle_cta a {
+	width: 100%;
+	float: left;
+	margin-top: 23px;
+	margin-left: 188px;
+	color: #fff;
+	font-size: 28px;
+	font-weight: 100;
+	font-family: 'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue',Arial,Helvetica,sans-serif;
+	opacity: .75;
 }
 
 /* Page links */
