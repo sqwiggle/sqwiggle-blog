@@ -1349,13 +1349,17 @@ footer.entry-meta {
 .sqwiggle_cta a {
 	width: 100%;
 	float: left;
-	margin-top: 23px;
-	margin-left: 188px;
-	color: #fff;
-	font-size: 28px;
-	font-weight: 100;
-	font-family: 'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue',Arial,Helvetica,sans-serif;
-	opacity: .75;
+	margin-top: 20px;
+	margin-left: 0px;
+	color: #707070;
+	font-size: 37px;
+	letter-spacing: 1px;
+	font-weight: 200;
+	font-family: 'HelveticaNeue-UltraLight','Helvetica Neue Light','Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.sqwiggle_cta a img {
+	padding-right: 15px;
 }
 
 /* Page links */
