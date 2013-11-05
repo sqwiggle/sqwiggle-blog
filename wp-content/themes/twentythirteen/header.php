@@ -21,6 +21,14 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
+        
+    <?php if (is_singular()): ?>
+        <meta property="og:url" content="<?php echo urlencode(get_permalink($post->ID)); ?>"/>
+        <meta property="og:title" content="<?php the_title(); ?>"/>
+        <meta property="og:description" content="<?php the_excerpt(); ?>"/>
+        <meta property="og:image" content="<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) ); ?>"/>
+    <? endif; ?>
+        
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="shortcut icon" type="image/x-icon" href="/wp-content/uploads/2013/11/favicon.ico" />
