@@ -5,7 +5,6 @@
 *.bak
 *.swp
 Thumbs.db
-.htaccess
 
 # wordpress specific
 wp-config.php
