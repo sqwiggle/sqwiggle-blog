@@ -1158,43 +1158,26 @@ h2.author-title {
 }
 
 .custom-tweet-button {
-	background: url('/wp-content/uploads/2013/11/twitter_2.png');
+	background: url('images/twitter_2.png');
 	margin-right: 5px;
 }
 
 .custom-tweet-button:hover {
-	background: url('/wp-content/uploads/2013/10/twitter.png');
+	background: url('images/twitter.png');
 }
 
 .custom-facebook-button {
-	background: url('/wp-content/uploads/2013/11/facebook_2.png');
+	background: url('images/facebook_2.png');
 }
 
 .custom-facebook-button:hover {
-	background: url('/wp-content/uploads/2013/10/facebook.png');
+	background: url('images/facebook.png');
 }
 
 .custom-tweet-button, .custom-facebook-button {
 	height: 43px;
 	width: 43px;
 	float: left;
-}
-
-.custom-tweet-button {
-	background: url('/wp-content/uploads/2013/11/twitter_2.png');
-	margin-right: 8px;
-}
-
-.custom-tweet-button:hover {
-	background: url('/wp-content/uploads/2013/10/twitter.png');
-}
-
-.custom-facebook-button {
-	background: url('/wp-content/uploads/2013/11/facebook_2.png');
-}
-
-.custom-facebook-button:hover {
-	background: url('/wp-content/uploads/2013/10/facebook.png');
 }
 
 .image-credit {
