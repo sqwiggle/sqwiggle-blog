@@ -1358,6 +1358,10 @@ footer.entry-meta {
 	font-family: 'HelveticaNeue-UltraLight','Helvetica Neue Light','Helvetica Neue',Arial,Helvetica,sans-serif;
 }
 
+.sqwiggle_cta a:hover {
+	color: #0ca6d2;
+}
+
 .sqwiggle_cta a img {
 	padding-right: 17px;
 }
@@ -3008,8 +3012,8 @@ footer.entry-meta {
 		line-height: 25px;
 	}
 	
-	h1.entry-title {
-		width: 400px;
+	.entry-header .entry-title {
+		width: 100%
 	}
 
 	#content .entry-header,
@@ -3037,11 +3041,17 @@ footer.entry-meta {
 		padding-left: 35px;
 	}
 	
-	.site-header {
+	.site-header, #site-navigation {
 		height: 200px;
 	}
 	
-	#navbar, .share-meta {
+	.navigation a {
+		position: absolute;
+		bottom: 0;
+		padding-left: 10px;
+	}
+	
+	.share-meta, .site-header .home-link, #site-navigation .subscribe_form {
 		display: none;
 	}
 	
