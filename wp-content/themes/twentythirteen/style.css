@@ -2200,11 +2200,10 @@ footer.entry-meta {
 	color: #444;
 	margin-left: 2px;
 	background: #eee;
-	width: 325px;
 	height: 62px;
 	float: left;
 	text-size: 16px;
-	padding: 10px 0px 0px 25px;
+	padding: 10px 25px 0px 25px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
