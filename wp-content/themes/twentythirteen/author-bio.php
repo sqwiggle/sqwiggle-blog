@@ -23,7 +23,7 @@
 				 'Previous Post', 'no'); ?>
 			</div>
 			<div class="next-post">
-				<?php next_post('&raquo; &raquo; %',
+				<?php next_post('% &raquo; &raquo;',
 				 'Next Post', 'no'); ?>
 			</div>
 		</p>

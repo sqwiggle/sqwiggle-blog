@@ -2156,9 +2156,8 @@ footer.entry-meta {
 
 .previous-post {
 	float: left;
-	width: 168px;
 	margin-right: 20px;
-	text-align: right;
+	text-align: left;
 }
 
 .previous-post:hover {
@@ -2166,10 +2165,8 @@ footer.entry-meta {
 }
 
 .previous-post a {
-	float: right;
 	color: #424242;
 	margin-right: 12px;
-	padding-left: 7px;
 }
 
 .previous-post a:hover {
@@ -2183,7 +2180,6 @@ footer.entry-meta {
 }
 
 .next-post a {
-	float: left;
 	color: #424242;
 	padding-right: 7px;
 }
@@ -2266,7 +2262,7 @@ footer.entry-meta {
 .archive-meta {
 	font: 300 italic 30px "Source Sans Pro", Helvetica, sans-serif;
 	margin: 0 auto;
-	max-width: 1040px;
+	max-width: 850px;
 	padding: 30px 0;
 	width: 100%;
 }
@@ -3032,7 +3028,7 @@ footer.entry-meta {
 		width: 100%;
 	}
 
-	.gallery-caption, .next-post, .previous-post, .author-link {
+	.gallery-caption, .sqwiggle_cta {
 		display: none;
 	}
 }
