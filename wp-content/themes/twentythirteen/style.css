@@ -1157,44 +1157,31 @@ h2.author-title {
 	float: left;
 }
 
-.custom-tweet-button {
-	background: url('/wp-content/uploads/2013/11/twitter_2.png');
+.custom-tweet-button, .custom-tweet-button:hover, .custom-facebook-button, .custom-facebook-button:hover {
+	background: url('/wp-content/themes/twentythirteen/images/spritesheet.png');
 	margin-right: 5px;
 }
 
+.custom-tweet-button {
+	background-position: 0px -43px;
+}
+
 .custom-tweet-button:hover {
-	background: url('/wp-content/uploads/2013/10/twitter.png');
+	background-position: -43px -43px;
 }
 
 .custom-facebook-button {
-	background: url('/wp-content/uploads/2013/11/facebook_2.png');
+	background-position: 0px 0px;
 }
 
 .custom-facebook-button:hover {
-	background: url('/wp-content/uploads/2013/10/facebook.png');
+	background-position: -43px 0px;
 }
 
 .custom-tweet-button, .custom-facebook-button {
 	height: 43px;
 	width: 43px;
 	float: left;
-}
-
-.custom-tweet-button {
-	background: url('/wp-content/uploads/2013/11/twitter_2.png');
-	margin-right: 8px;
-}
-
-.custom-tweet-button:hover {
-	background: url('/wp-content/uploads/2013/10/twitter.png');
-}
-
-.custom-facebook-button {
-	background: url('/wp-content/uploads/2013/11/facebook_2.png');
-}
-
-.custom-facebook-button:hover {
-	background: url('/wp-content/uploads/2013/10/facebook.png');
 }
 
 .image-credit {
@@ -2157,6 +2144,37 @@ footer.entry-meta {
 	text-align: right;
 }
 
+.previous-post, .next-post {
+	float: right;
+	height: 40px;
+	width: 40px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-top: 10px;
+}
+
+.previous-post, .next-post, .previous-post:hover, .next-post:hover {
+	background: url('/wp-content/themes/twentythirteen/images/spritesheet.png');
+}
+
+.previous-post {
+	background-position: -8px 105px;
+	margin-right: 7px;
+}
+
+.previous-post:hover {
+	background-position: -8px 247px;
+}
+
+
+.next-post {
+	background-position: -63px 302px;
+}
+
+.next-post:hover {
+	background-position: -63px 246px;
+}
 
 /**
  * 5.8 Author Bio
