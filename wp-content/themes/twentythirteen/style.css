@@ -2145,35 +2145,57 @@ footer.entry-meta {
 }
 
 .previous-post, .next-post {
-	float: right;
 	height: 40px;
-	width: 40px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	margin-top: 10px;
+	padding: 5px 0px 0px 12px;
+	font-size: 18px;
+	margin-top: 12px;
 }
 
-.previous-post, .next-post, .previous-post:hover, .next-post:hover {
-	background: url('/wp-content/themes/twentythirteen/images/spritesheet.png');
-}
 
 .previous-post {
-	background-position: -8px 105px;
-	margin-right: 7px;
+	float: left;
+	width: 168px;
+	margin-right: 20px;
+	text-align: right;
 }
 
 .previous-post:hover {
-	background-position: -8px 247px;
+	background-position: 0px 366px;
+}
+
+.previous-post a {
+	float: right;
+	color: #424242;
+	margin-right: 12px;
+	padding-left: 7px;
+}
+
+.previous-post a:hover {
+	color: #424242;
 }
 
 
 .next-post {
-	background-position: -63px 302px;
+	float: right;
+	width: 130px;
 }
 
-.next-post:hover {
-	background-position: -63px 246px;
+.next-post a {
+	float: left;
+	color: #424242;
+	padding-right: 7px;
+}
+
+.author-bio {
+	float: left;
+}
+
+.next-post a:hover, .previous-post a:hover {
+	color: #424242;
+	text-decoration: underline;
 }
 
 /**
@@ -2216,12 +2238,12 @@ footer.entry-meta {
 
 .author-link {
 	color: #444;
-	margin-left: 2px;
+	margin-left: 100px;
 	background: #eee;
 	height: 62px;
 	float: left;
 	text-size: 16px;
-	padding: 10px 25px 0px 25px;
+	padding: 12px 25px 0px 25px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -3011,7 +3033,7 @@ footer.entry-meta {
 		width: 100%;
 	}
 
-	.gallery-caption {
+	.gallery-caption, .next-post, .previous-post, .author-link {
 		display: none;
 	}
 }
