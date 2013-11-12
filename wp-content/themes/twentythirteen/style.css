@@ -2151,7 +2151,6 @@ footer.entry-meta {
 	border-radius: 3px;
 	padding: 5px 0px 0px 12px;
 	font-size: 18px;
-	margin-top: 12px;
 }
 
 
@@ -2238,7 +2237,7 @@ footer.entry-meta {
 
 .author-link {
 	color: #444;
-	margin-left: 100px;
+	margin-top: 25px;
 	background: #eee;
 	height: 62px;
 	float: left;
