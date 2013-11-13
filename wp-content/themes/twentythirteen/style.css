@@ -1135,7 +1135,7 @@ h2.author-title {
 	font-size: 17px;
 	font-style: italic;
 	color: #adadad;
-	margin-top: 15px;
+	margin-top: 10px;
 	float: left;
 }
 
@@ -2216,11 +2216,6 @@ footer.entry-meta {
 	padding: 50px 0 0;
 }
 
-.author-avatar .avatar {
-	float: left;
-	margin: 0 30px 30px 0;
-}
-
 .single-format-status .author-description {
 	color: #f7f5e7;
 }
@@ -2246,6 +2241,16 @@ footer.entry-meta {
 
 .author.archive .author-link {
 	display: none;
+}
+
+.avatar {
+	height: 40px;
+	width: 40px;
+	float: left;
+	margin: 4px 10px 0 0;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
 }
 
 
@@ -3077,6 +3082,10 @@ footer.entry-meta {
 	
 	.site-header, #site-navigation {
 		height: 200px;
+	}
+	
+	.site-header {
+		background-size: 500px;
 	}
 	
 	.navigation a {

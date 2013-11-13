@@ -23,6 +23,7 @@
 			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 		</h1>
 		<?php endif; // is_single() ?>
+		<div class="author-avatar"><?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?></div>
 		<span class="author-meta">by &nbsp;<a href="<?php the_author_url(); ?>" target="_blank"><?php the_author(); ?></a>, <?php the_author_description(); ?></span>
 		<div class="share-meta">
 			<span style="font-size: 14px; padding-right: 4px; color: #cfcfcf;">Share</span>
