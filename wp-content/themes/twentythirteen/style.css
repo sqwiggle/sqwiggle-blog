@@ -1224,6 +1224,12 @@ h2.author-title {
 	line-height: 40px;
 }
 
+.entry-content p img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
 .entry-content p a:hover {
 	text-decoration: underline;
 }
