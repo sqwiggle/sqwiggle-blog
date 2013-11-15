@@ -1225,9 +1225,12 @@ h2.author-title {
 }
 
 .entry-content p img {
+	width: 750px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .entry-content p a:hover {
