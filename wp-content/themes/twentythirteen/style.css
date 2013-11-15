@@ -1254,10 +1254,8 @@ h2.author-title {
 }
 
 .entry-content blockquote p {
-	margin-top: 30px;
-	margin-bottom: 39px;
-	font-size: 28px;
-	line-height: 50px;
+	font-size: 25px;
+	line-height: 43px;
 }
 
 .entry-content blockquote {
