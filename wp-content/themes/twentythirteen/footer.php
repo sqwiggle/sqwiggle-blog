@@ -19,11 +19,11 @@
 				    <div class="four columns">
 					<h5>Sqwiggle</h5>
 					<ul>
-					    <li><a href="/pricing">Pricing</a></li>
-					    <li><a href="/team">The Team</a></li>
-					    <li><a href="/comparison">Features</a></li>
-					    <li><a href="/press">Press &amp; Brand</a></li>
-					    <li><a href="/success-stories">Success Stories</a></li>
+					    <li><a href="http://www.sqwiggle.com/pricing">Pricing</a></li>
+					    <li><a href="http://www.sqwiggle.com/team">The Team</a></li>
+					    <li><a href="http://www.sqwiggle.com/comparison">Features</a></li>
+					    <li><a href="http://www.sqwiggle.com/press">Press &amp; Brand</a></li>
+					    <li><a href="http://www.sqwiggle.com/success-stories">Success Stories</a></li>
 					    <li><a href="https://angel.co/sqwiggle/jobs">Work at Sqwiggle</a></li>
 					</ul>
 				    </div>
@@ -44,6 +44,7 @@
 					    <li><a href="http://www.linkedin.com/company/sqwiggle">LinkedIn</a></li>
 					</ul>
 				    </div>
+				    <!--
 				    <div class="four columns">
 					<h5>Blog</h5>
 					<ul>
@@ -52,6 +53,7 @@
 					    <li><a href="http://blog.sqwiggle.com/when-to-call-a-meeting/">When to Call a Meeting</a></li>
 					</ul>
 				    </div>
+				    -->
 				</nav>
 				<div class="copyright sixteen columns">
 				    <a href="https://www.sqwiggle.com/"><img class="logo" src="https://sqwiggle-assets.s3.amazonaws.com/assets/logo-footer-584fe8f13467ec2b1ea813b32e66d083.png" width="143" height="38"></a>
