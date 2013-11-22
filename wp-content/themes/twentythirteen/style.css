@@ -1187,12 +1187,12 @@ h2.author-title {
 .image-credit {
 	position: absolute;
 	top: 0;
-	right: 0;
-	width: 250px;
+	left: 0;
+	width: 115px;
 	height: 40px;
 	font-size: 11px;
 	text-align: right;
-	margin-right: 5px;
+	margin-left: 5px;
 }
 
 .image-credit a, .image-credit span {
@@ -1239,7 +1239,12 @@ h2.author-title {
 
 .entry-content ul {
 	width: 100%;
-	list-style-type: none;
+	list-style-type: circle;
+	font-style: italic;
+}
+
+.entry-content ul, .entry-content ol {
+	clear: both;
 }
 
 .entry-content a,
@@ -2795,11 +2800,81 @@ footer.entry-meta {
  * ----------------------------------------------------------------------------
  */
 
-.site-footer {
-	background-color: #e8e5ce;
-	color: #686758;
-	font-size: 14px;
-	text-align: center;
+.footer-container {
+	position: relative;
+	width: 887px;
+	margin: 0 auto;
+	padding: 0;
+}
+}
+
+.site-footer nav>.columns {
+	padding-bottom: 30px;
+}
+
+
+.footer-container .four.columns {
+	width: 200px;
+}
+
+.footer-container .sixteen.columns {
+	width: 940px;
+}
+
+.columns {
+	position: relative;
+	width: 750px;
+	margin: 0 auto;
+	padding: 0;
+	float: left;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.site-footer{
+	clear:both;
+	min-height:538px;
+	background:#2d343a;
+	margin-top:117px;
+	padding:60px 0;
+	text-align:center;
+	font: 15px/19px "Open sans","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #7e7e7e;
+	-webkit-font-smoothing: antialiased;
+}
+	
+.site-footer .logo{
+	margin-bottom:5px;
+}
+.site-footer nav>.columns{
+	padding-bottom:30px;
+}.site-footer nav>.columns h5{
+	color:#fff;
+	font-size:20px;
+	text-align:left;
+	margin-bottom:26px;
+}
+.site-footer nav>.columns ul{
+	list-style:none;
+	text-align:left;
+	margin:0;
+	padding: 0px;
+}
+.site-footer nav>.columns ul a{
+	color:#ced3d8;
+}
+.site-footer .copyright{
+	clear:both;
+	float:left;
+	text-align:left;
+	color:#737a80;
+	font-size:13px;
+	margin:60px 0
+}
+.site-footer
+.copyright a{
+	color:#737a80;
 }
 
 .site-footer .widget-area,
@@ -3379,7 +3454,6 @@ footer.entry-meta {
 	}
 
 	.author-avatar,
-	.site-footer,
 	.comment-respond,
 	.comments-area .comment-edit-link,
 	.comments-area .reply,
