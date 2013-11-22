@@ -1188,10 +1188,10 @@ h2.author-title {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 115px;
+	width: 150px;
 	height: 40px;
 	font-size: 11px;
-	text-align: right;
+	text-align: left;
 	margin-left: 5px;
 }
 
