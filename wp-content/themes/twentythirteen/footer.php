@@ -57,7 +57,7 @@
 				</nav>
 				<div class="copyright sixteen columns">
 				    <a href="https://www.sqwiggle.com/"><img class="logo" src="https://sqwiggle-assets.s3.amazonaws.com/assets/logo-footer-584fe8f13467ec2b1ea813b32e66d083.png" width="143" height="38"></a>
-				    <p>&#169; 2013 Sqwiggle, Inc. All Rights Reserved. <a href="/terms">Terms of Service</a> &amp; <a href="/privacy">Privacy Policy</a></p>
+				    <p>&#169; 2013 Sqwiggle, Inc. All Rights Reserved. <a href="http://www.sqwiggle.com/terms">Terms of Service</a> &amp; <a href="http://www.sqwiggle.com/privacy">Privacy Policy</a></p>
 				    <a href="https://mixpanel.com/f/partner"><img src="//cdn.mxpnl.com/site_media/images/partner/badge_blue.png" alt="Mobile Analytics"></a>
 				</div>
 			    </div>
