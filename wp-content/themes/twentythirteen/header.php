@@ -59,11 +59,12 @@
 		{'service': 'google_follow', 'id': 'b/110581722177764063021/+Sqwiggle/posts'}
 	      ]
 	    },  
-	    'whatsnext' : {},  
-	    'recommended' : {} 
+	    'whatsnext' : {}  
 	  });
 	</script>
 	<!-- AddThis Smart Layers END -->
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "175f0c38-ca6a-43fa-bc10-8c6fd617f32c", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 </head>
 <?php $custom_fields = get_post_custom($post_id); ?>
 <body <?php body_class(); ?>>

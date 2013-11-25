@@ -18,9 +18,9 @@ get_header(); ?>
 
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-
 				<?php get_template_part( 'content', get_post_format() ); ?>
 				<?php twentythirteen_post_nav(); ?>
+				
 				<!--
 				<div style="margin: 0 auto; width: 850px; background-size:950px 633px; height: 100px; background-position: center; margin-bottom: 100px;" class="sqwiggle_cta">
 					<a href="http://www.sqwiggle.com?utm_campaign=blog" style="float: left"><img src="/wp-content/uploads/2013/11/sqwiggle_logo.png" alt="Sqwiggle" />Work has changed. Join the Sqwiggle revolution.</a>

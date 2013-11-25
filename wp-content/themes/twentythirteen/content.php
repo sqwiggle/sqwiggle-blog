@@ -25,11 +25,13 @@
 		<?php endif; // is_single() ?>
 		<div class="author-avatar"><?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?></div>
 		<span class="author-meta">by &nbsp;<a href="<?php the_author_url(); ?>" target="_blank"><?php the_author(); ?></a>, <?php the_author_description(); ?></span>
+		<!--
 		<div class="share-meta">
 			<span style="font-size: 14px; padding-right: 4px; color: #cfcfcf;">Share</span>
 			<a href='https://twitter.com/share?url=&text="<?php the_title(); ?>" - <?php echo urlencode(get_permalink($post->ID)); ?>&via=sqwiggle&count=horizontal' class="custom-tweet-button" target="_blank" data-via="sqwiggle" data-lang="en"></a>
 			<a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode(get_permalink($post->ID)); ?>" target="_blank" class="custom-facebook-button"></a>
 		</div>
+		-->
 		<!--<div class="entry-meta">
 			<?php twentythirteen_entry_meta(); ?>
 			<?php edit_post_link( __( 'Edit', 'twentythirteen' ), '<span class="edit-link">', '</span>' ); ?>
