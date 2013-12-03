@@ -27,8 +27,8 @@
 				 'Next Post', 'no'); ?>
 			</div>
 		</p>
-		<a class="author-link" href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author" style="color: #444;">
+		<!--<a class="author-link" href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author" style="color: #444;">
 			<?php printf( __( 'View all posts by %s <span class="meta-nav"></span>', 'twentythirteen' ), get_the_author() ); ?>
-		</a>
+		</a>-->
 	</div><!-- .author-description -->
 </div><!-- .author-info -->

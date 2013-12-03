@@ -1136,6 +1136,7 @@ h2.author-title {
 	font-style: italic;
 	color: #adadad;
 	margin-top: 10px;
+	margin-bottom: 20px;
 	float: left;
 }
 
@@ -1317,6 +1318,22 @@ ul.post-meta {
 	color: #b0b0b0;
 }
 
+.post_cta {
+	margin: 0px auto;
+	width: 850px;
+	margin-top: -20px;
+	margin-bottom: 72px;
+	background: #aec1ef;
+}
+
+.post_cta span {
+	margin: 0px auto;
+}
+
+.post_cta span img {
+	margin: 0px auto;
+}
+
 footer.entry-meta {
 	margin-top: 24px;
 }
@@ -1370,6 +1387,13 @@ footer.entry-meta {
 
 .sqwiggle_cta a img {
 	padding-right: 17px;
+}
+
+.abh_image img{
+	width: 90px;
+	float: left;
+	border: 0px;
+	padding: 0px;
 }
 
 /* Page links */
@@ -2147,6 +2171,7 @@ footer.entry-meta {
 	font-style: italic;
 	font-weight: 300;
 	padding: 20px 0;
+	display:none;
 }
 
 .post-navigation .nav-links {

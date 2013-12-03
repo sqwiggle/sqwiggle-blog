@@ -8,11 +8,7 @@
  */
 
 get_header(); ?>
-
-<!--<div class="image-credit">
-	<span>Image Credit:</span>
-	<a href="<?php echo $custom_fields["Image Credit URL"][0] ?>" target="_blank"><?php echo $custom_fields["Image Credit"][0] ?></a>
-</div>-->
+<?php $custom_fields = get_post_custom($post_id); ?>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
@@ -26,6 +22,9 @@ get_header(); ?>
 					<a href="http://www.sqwiggle.com?utm_campaign=blog" style="float: left"><img src="/wp-content/uploads/2013/11/sqwiggle_logo.png" alt="Sqwiggle" />Work has changed. Join the Sqwiggle revolution.</a>
 				</div>
 				-->
+				<div class="post_cta">
+					<?php echo $custom_fields["CTA"][0] ?>
+				</div>
 				<div id="disqus_thread" style="width: 850px; margin: 0 auto;"></div>
 				<script type="text/javascript">
 				    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
