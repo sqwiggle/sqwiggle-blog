@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+    <block>
+        <name>ABH_Controllers_Menu</name>
+        <actions>
+            <action>abh_settings_update</action>
+            <action>abh_settings_subscribe</action>
+
+        </actions>
+        <active>1</active>
+    </block>
+
+    <block>
+        <name>ABH_Core_UserSettings</name>
+        <actions>
+            <action>abh_get_box</action>
+        </actions>
+        <active>1</active>
+    </block>
+
+    <block>
+        <name>ABH_Controllers_Frontend</name>
+        <shortcodes>
+            <shortcode>starbox</shortcode>
+        </shortcodes>
+        <active>1</active>
+    </block>
+
+</blocks>
