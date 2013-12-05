@@ -1323,7 +1323,6 @@ ul.post-meta {
 	width: 850px;
 	margin-top: -20px;
 	margin-bottom: 72px;
-	background: #aec1ef;
 }
 
 .post_cta span {
@@ -1394,6 +1393,40 @@ footer.entry-meta {
 	float: left;
 	border: 0px;
 	padding: 0px;
+}
+
+#embed_width {
+	width: 85px;
+	border: 1px solid #e6e6e6;
+	margin-left: 20px;
+	font-size: 17px;
+	color: #a0a0a0;
+	font-style: italic;
+}
+
+#embedupdate {
+	float: right;
+	background: #69c04f;
+	border: none;
+	border-radius: 3px;
+	font-size: 13px;
+	color: #fff;
+	display: inline-block;
+	padding: 15px;
+	text-decoration: none;
+}
+
+#infographic_embed label {
+	font-size: 18px;
+}
+
+#embedcode {
+	width: 850px;
+	margin-top: 10px;
+	font-size: 15px;
+	border: 1px solid #e6e6e6;
+	color: #a0a0a0;
+	font-style: italic;
 }
 
 /* Page links */
