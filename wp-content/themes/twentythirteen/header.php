@@ -20,7 +20,8 @@
 <!--<![endif]-->
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1">
+    
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="shortcut icon" type="image/x-icon" href="/wp-content/uploads/2013/11/favicon.ico" />
@@ -69,7 +70,7 @@
 <?php $custom_fields = get_post_custom($post_id); ?>
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed site">
-		<header id="masthead" class="site-header" style="background-position: center; background-size:1600px; background-image: url('<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) ); ?>')" role="banner">
+		<header id="masthead" class="site-header" style="background-position: center; background-size:cover; background-image: url('<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) ); ?>')" role="banner">
 			<div class="image-credit">
 				<span>Image Credit:</span>
 				<a href="<?php echo $custom_fields["Image Credit URL"][0] ?>" target="_blank"><?php echo $custom_fields["Image Credit"][0] ?></a>
