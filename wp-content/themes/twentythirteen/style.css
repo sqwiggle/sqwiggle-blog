@@ -1286,7 +1286,7 @@ h2.author-title {
 .more-link {
 	height: 55px;
 	width: 158px;
-	padding: 10px 0 0 32px;
+	padding: 7px 0 0 32px;
 	background: #69c04f;
 	float: left;
 	font-size: 18px;
@@ -1318,11 +1318,20 @@ ul.post-meta {
 	color: #b0b0b0;
 }
 
-.post_cta {
+.post_cta, .subscribe_cta {
 	margin: 0px auto;
 	width: 850px;
+}
+
+.post_cta {
 	margin-top: -20px;
+	margin-bottom: 9px;
+}
+
+.subscribe_cta {
+	background: #aec1ef;
 	margin-bottom: 72px;
+	
 }
 
 .post_cta span {

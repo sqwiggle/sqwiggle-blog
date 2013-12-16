@@ -25,6 +25,20 @@ get_header(); ?>
 				<div class="post_cta">
 					<?php echo $custom_fields["CTA"][0] ?>
 				</div>
+				<div class="subscribe_cta">
+					<!--HubSpot Call-to-Action Code -->
+					<span class="hs-cta-wrapper" id="hs-cta-wrapper-d6dbc103-aee5-4f41-a371-249473203556">
+					    <span class="hs-cta-node hs-cta-d6dbc103-aee5-4f41-a371-249473203556" id="hs-cta-d6dbc103-aee5-4f41-a371-249473203556">
+						<!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+						<a href="http://cta-redirect.hubspot.com/cta/redirect/329768/d6dbc103-aee5-4f41-a371-249473203556"><img class="hs-cta-img" id="hs-cta-img-d6dbc103-aee5-4f41-a371-249473203556" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/329768/d6dbc103-aee5-4f41-a371-249473203556.png" /></a>
+					    </span>
+					    <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+						<script type="text/javascript">
+						    hbspt.cta.load(329768, 'd6dbc103-aee5-4f41-a371-249473203556');
+						</script>
+					</span>
+					<!-- end HubSpot Call-to-Action Code -->
+				</div>
 				<div id="disqus_thread" style="width: 850px; margin: 0 auto;"></div>
 				<script type="text/javascript">
 				    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
