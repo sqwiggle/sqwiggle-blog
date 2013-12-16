@@ -1283,13 +1283,17 @@ h2.author-title {
 	margin-right: -60px;
 }
 
-a.more-link {
-	padding: 10px 20px;
+.more-link {
+	height: 55px;
+	width: 158px;
+	padding: 7px 0 0 32px;
 	background: #69c04f;
 	float: left;
 	font-size: 18px;
-	
-    color: #fff;
+}
+
+a.more-link {
+	color: #fff;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
