@@ -1135,9 +1135,7 @@ h2.author-title {
 	font-size: 17px;
 	font-style: italic;
 	color: #adadad;
-	margin-top: 10px;
-	margin-bottom: 20px;
-	float: left;
+    line-height: 45px;
 }
 
 .share-meta {
@@ -1216,13 +1214,6 @@ h2.author-title {
 	-ms-hyphens:     auto;
 	hyphens:         auto;
 	word-wrap: break-word;
-}
-
-.entry-content p {
-	width: 100%;
-	float: left;
-	margin-top: 5px;
-	line-height: 35px;
 }
 
 .entry-content p img {
