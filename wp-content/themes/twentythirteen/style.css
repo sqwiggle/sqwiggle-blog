@@ -1046,10 +1046,9 @@ ul.nav-menu li:hover > ul,
 }
 
 .entry-title {
-	width: 850px;
 	font-weight: 400;
-	margin: 0px 0 5px;
-	color: #000000;
+	margin: 0 0 10px;
+	color: #333;
 }
 
 .entry-title a {
@@ -1135,7 +1134,17 @@ h2.author-title {
 	font-size: 17px;
 	font-style: italic;
 	color: #adadad;
-    line-height: 45px;
+    line-height: 40px;
+}
+
+.author-avatar img {
+	height: 40px;
+	width: 40px;
+	float: left;
+	margin: 0 10px 0 0;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
 }
 
 .share-meta {
@@ -2313,16 +2322,6 @@ footer.entry-meta {
 
 .author.archive .author-link {
 	display: none;
-}
-
-.avatar {
-	height: 40px;
-	width: 40px;
-	float: left;
-	margin: 4px 10px 0 0;
-	-webkit-border-radius: 40px;
-	-moz-border-radius: 40px;
-	border-radius: 40px;
 }
 
 
