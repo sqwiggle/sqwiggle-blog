@@ -1,0 +1,463 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StarBox v1.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-10-08 07:44:51+0000\n"
+"Last-Translator: Joerg Gebauer <gebauer@newshore.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: classes/Error.php:16
+#@ starbox
+msgid "Function get_class does not exists! Is required for StarBox to work properly."
+msgstr "Die Funktion get_class exisitiert nicht, ist aber erforderlich, damit StarBox korrekt funktioniert."
+
+#: classes/Error.php:19
+#@ starbox
+msgid "Function file_exists does not exists! Is required for StarBox to work properly."
+msgstr "Die Funktion file_exists existiert nicht, ist aber erforderlich, damit StarBox korrekt funktioniert."
+
+#: classes/Error.php:23
+#@ starbox
+msgid "The home directory is not set!"
+msgstr "Das Stammverzeichnis ist nicht konfiguriert!"
+
+#: classes/Error.php:27
+#@ starbox
+msgid "The PHP version has to be greater then 4.0"
+msgstr "PHP in Versionen größer als 4.0 ist erforderlich."
+
+#: classes/Error.php:35
+#@ starbox
+msgid "For StarBox to work, the PHP version has to be equal or greater then 5.1"
+msgstr "Damit StarBox funktioniert, ist eine PHP Version ab 5.1 erforderlich."
+
+#: classes/Error.php:69
+#@ starbox
+msgid "Turn off warnings!"
+msgstr "Warnungen abschalten!"
+
+#: classes/Error.php:70
+#@ starbox
+msgid "Notice: "
+msgstr "Hinweis:"
+
+#: classes/Error.php:74
+#@ starbox
+msgid "Note: "
+msgstr "Anmerkung:"
+
+#: classes/Tools.php:58
+#@ starbox
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: classes/Tools.php:308
+#@ starbox
+msgid "Notice"
+msgstr "Hinweis"
+
+#: config/paths.php:14
+#, php-format
+#@ default
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr ""
+
+#: controllers/Menu.php:39
+#@ starbox
+msgid "StarBox Settings"
+msgstr "StarBox Einstellungen"
+
+#: controllers/Menu.php:40
+#@ starbox
+msgid "StarBox"
+msgstr "StarBox"
+
+#: models/Frontend.php:28
+#@ starbox
+msgid "About"
+msgstr "Über"
+
+#: models/Frontend.php:29
+#@ starbox
+msgid "Latest Posts"
+msgstr "Letzte Artikel"
+
+#: models/Frontend.php:59
+#@ starbox
+msgid "at"
+msgstr "bei"
+
+#: models/Frontend.php:74
+#, php-format
+#@ starbox
+msgid "Latest posts by %s"
+msgstr "Letzte Artikel von %s"
+
+#: models/Frontend.php:74
+#@ starbox
+msgid "see all"
+msgstr "Alle anzeigen"
+
+#: models/Frontend.php:86
+#@ starbox
+msgid "Facebook"
+msgstr "Facebook"
+
+#: models/Frontend.php:90
+#@ starbox
+msgid "Twitter"
+msgstr "Twitter"
+
+#: models/Frontend.php:95
+#: models/Frontend.php:97
+#@ starbox
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: models/Frontend.php:101
+#@ starbox
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: models/Frontend.php:105
+#@ starbox
+msgid "Instagram"
+msgstr "Instagram"
+
+#: models/Frontend.php:109
+#@ starbox
+msgid "Flickr"
+msgstr "Flickr"
+
+#: models/Frontend.php:113
+#@ starbox
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: models/Frontend.php:117
+#@ starbox
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: models/Frontend.php:121
+#@ starbox
+msgid "YouTube"
+msgstr "YouTube"
+
+#: models/Frontend.php:125
+#@ starbox
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: models/Frontend.php:131
+#: models/Frontend.php:133
+#@ starbox
+msgid "Klout"
+msgstr "Klout"
+
+#: models/UserSettings.php:34
+#@ starbox
+msgid "File type error: Only JPEG, JPG, GIF or PNG files are allowed."
+msgstr "Falscher Dateityp: nur JPEG, JPG, GIF oder PNG Dateien sind erlaubt."
+
+#: models/UserSettings.php:47
+#@ starbox
+msgid "GD error: The GD library must be installed on your server."
+msgstr "GD Fehler: die GD Library muss auf dem Server installiert sein."
+
+#: models/UserSettings.php:54
+#@ starbox
+msgid "Delete error: Could not delete the old gravatar."
+msgstr "Fehler beim Löschen: der bestehende Gravatar konnte nicht gelöscht werden."
+
+#: models/UserSettings.php:61
+#@ starbox
+msgid "Upload error: Could not upload the gravatar."
+msgstr "Upload Fehler: Der Gravatar konnte nicht hochgeladen werden."
+
+#: models/UserSettings.php:67
+#@ starbox
+msgid "Permission error: Could not change the gravatar permissions."
+msgstr "Berechtigungsfehler: die Gravatar-Berechtigungen konnten nicht geändert werden."
+
+#: models/UserSettings.php:78
+#@ starbox
+msgid "The gravatar has been updated."
+msgstr "Der Gravatar wurde aktualisiert."
+
+#: themes/admin/Menu.php:3
+#@ starbox
+msgid "StartBox Settings"
+msgstr "StartBox Einstellungen"
+
+#: themes/admin/Menu.php:3
+#: themes/admin/UserSettings.php:3
+#@ starbox
+msgid "Please support us on Wordpress"
+msgstr "Bitte unterstütze uns auf WordPress"
+
+#: themes/admin/Menu.php:12
+#: themes/admin/Menu.php:25
+#: themes/admin/Menu.php:36
+#: themes/admin/Menu.php:47
+#: themes/admin/UserSettings.php:10
+#@ starbox
+msgid "Yes"
+msgstr "Ja"
+
+#: themes/admin/Menu.php:14
+#: themes/admin/Menu.php:27
+#: themes/admin/Menu.php:38
+#: themes/admin/Menu.php:49
+#: themes/admin/UserSettings.php:12
+#@ starbox
+msgid "No"
+msgstr "Nein"
+
+#: themes/admin/Menu.php:17
+#@ starbox
+msgid "Visible in <strong>posts</strong>"
+msgstr "Sichtbar in <strong>Artikeln</strong>"
+
+#: themes/admin/Menu.php:18
+#@ starbox
+msgid "Hide Author Box from custom posts types"
+msgstr "Author Box nicht in Custom Post Types anzeigen"
+
+#: themes/admin/Menu.php:30
+#@ starbox
+msgid "Visible in <strong>pages</strong>"
+msgstr "Sichtbar in <strong>Seiten</strong>"
+
+#: themes/admin/Menu.php:41
+#@ starbox
+msgid "Show the Starbox with Top Star theme <strong>in the global feed of your blog</strong> (eg. \"/blog\" page) under each title of every post"
+msgstr "Zeige die StarBox mit dem Top Star Theme <strong>im globalen Feed Deines Blogs</strong> (z.B. \"/blog\" Seite) unterhalb jedes einzelnen Artikeltitels"
+
+#: themes/admin/Menu.php:52
+#, php-format
+#@ starbox
+msgid "Show the <strong>Open Graph</strong> Profile in meta for each author %sdetails%s (useful for rich snippets)"
+msgstr "Zeige das <strong>Open Graph</strong> Profil in den Metadaten für jeden Author %sdetails%s (hilfreich bei rich snippets)"
+
+#: themes/admin/Menu.php:56
+#@ starbox
+msgid "Theme setting:"
+msgstr "Theme Einstellungen:"
+
+#: themes/admin/Menu.php:65
+#@ starbox
+msgid "The Author Box <strong>position</strong> (Topstar and Topstar-round are always on shown on top)"
+msgstr "Die <strong>Position</strong> der Author Box (Topstar und Topstar-round werden immer oben angezeigt)"
+
+#: themes/admin/Menu.php:80
+#@ starbox
+msgid "Choose the default theme to be displayed <strong>inside each blog article</strong>"
+msgstr "Wähle das Default Theme für die Anzeige <strong>innerhalb jedes Blogartikels</strong>"
+
+#: themes/admin/Menu.php:84
+#@ starbox
+msgid "Preview mode for the default theme"
+msgstr "Vorschau Modus für das Default Theme"
+
+#: themes/admin/Menu.php:104
+#@ starbox
+msgid "Choose the theme to be displayed in your <strong>global list of posts</strong> (eg. /blog)"
+msgstr "Wähle das Theme für die Anzeige in Deiner <strong>globalen Auflistung der Artikel</strong> (z.B. /blog)"
+
+#: themes/admin/Menu.php:109
+#, php-format
+#@ starbox
+msgid "Use the Google Tool to check rich snippets %sclick here%s"
+msgstr "Benutze das Google Tool zur Überprüfung von rich snippets %sclick here%s"
+
+#: themes/admin/Menu.php:116
+#@ starbox
+msgid "Click \"go to user settings\" to setup the author box for each author you have ( including per author Google Authorship)"
+msgstr "Klicke auf \"Gehe zu Benutzer-Einstellungen\", um die Author Box für jeden Deiner Autoren einzustellen (inkl. per Autor Google Authorship)"
+
+#: themes/admin/Menu.php:119
+#@ starbox
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
+#: themes/admin/Menu.php:120
+#@ starbox
+msgid "Go to user settings"
+msgstr "Gehe zu Benutzer-Einstellungen"
+
+#: themes/admin/UserSettings.php:3
+#@ starbox
+msgid "Starbox Settings for this Author"
+msgstr "StarBox Einstellungen für diesen Autor"
+
+#: themes/admin/UserSettings.php:15
+#@ starbox
+msgid "Show the StarBox for this author"
+msgstr "Zeige die StarBox für diesen Autoren an"
+
+#: themes/admin/UserSettings.php:20
+#@ starbox
+msgid "Change the Profile Image"
+msgstr "Profilbild ändern"
+
+#: themes/admin/UserSettings.php:23
+#@ starbox
+msgid "File types: JPG, JPEG, GIF and PNG. Ideal image size is: 80x80"
+msgstr "Dateitypen: JPG, JPEG, GIF und PNG. Optimale Bildgröße: 80x80"
+
+#: themes/admin/UserSettings.php:37
+#@ starbox
+msgid "Upload"
+msgstr "Upload"
+
+#: themes/admin/UserSettings.php:38
+#@ starbox
+msgid "Reset the uploaded image"
+msgstr "Hochgeladenen Bild zurücksetzen"
+
+#: themes/admin/UserSettings.php:39
+#, php-format
+#@ starbox
+msgid "You can also set your image on %shttps://en.gravatar.com/%s for your email address"
+msgstr "Du kannst auch Dein Profilbild von %shttps://en.gravatar.com/%s für Deine E-Mail-Adresse einstellen"
+
+#: themes/admin/UserSettings.php:46
+#@ starbox
+msgid "Theme settings:"
+msgstr "Theme-Einstellungen:"
+
+#: themes/admin/UserSettings.php:56
+#@ starbox
+msgid "Default"
+msgstr "Default"
+
+#: themes/admin/UserSettings.php:57
+#@ starbox
+msgid "Up"
+msgstr "Nach oben"
+
+#: themes/admin/UserSettings.php:58
+#@ starbox
+msgid "Down"
+msgstr "Nach unten"
+
+#: themes/admin/UserSettings.php:61
+#@ starbox
+msgid "The Author Box position"
+msgstr "Die Position der Author Box"
+
+#: themes/admin/UserSettings.php:80
+#@ starbox
+msgid "This Author's theme"
+msgstr "Das Theme dieses Autors"
+
+#: themes/admin/UserSettings.php:83
+#@ starbox
+msgid "Preview mode (change the theme)"
+msgstr "Vorschau Modus (Theme wechseln)"
+
+#: themes/admin/UserSettings.php:94
+#@ starbox
+msgid "Job settings:"
+msgstr "Einstellungen Beruf:"
+
+#: themes/admin/UserSettings.php:96
+#@ starbox
+msgid "Job Title:"
+msgstr "Titel Beruf:"
+
+#: themes/admin/UserSettings.php:97
+#@ starbox
+msgid "Company:"
+msgstr "Unternehmen:"
+
+#: themes/admin/UserSettings.php:98
+#@ starbox
+msgid "Company URL:"
+msgstr "Unternehmen URL:"
+
+#: themes/admin/UserSettings.php:103
+#@ starbox
+msgid "Social settings:"
+msgstr "Social Einstellungen:"
+
+#: themes/admin/UserSettings.php:105
+#@ starbox
+msgid "To unlock social fields please enter your email:"
+msgstr "Zur Freischaltung der Social Felder bitte Deine E-Mail-Adresse eingeben:"
+
+#: themes/admin/UserSettings.php:123
+#@ starbox
+msgid "You will only subscribe to StarBox News (No spam). <br />We do not connect your site to our server in any way. The plugin is stand-alone."
+msgstr "Du trägst Dich nur für StarBox News ein (Kein Spam). <br />Wir verbinden Deine Seite in keinster Weise mit unserem Server. Das Plugin ist Stand-alone."
+
+#: themes/admin/UserSettings.php:127
+#@ starbox
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: themes/admin/UserSettings.php:128
+#@ starbox
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: themes/admin/UserSettings.php:129
+#@ starbox
+msgid "Google +:"
+msgstr "Google +:"
+
+#: themes/admin/UserSettings.php:130
+#@ starbox
+msgid "LinkedIn:"
+msgstr "LinkedIn:"
+
+#: themes/admin/UserSettings.php:131
+#@ starbox
+msgid "Klout:"
+msgstr "Klout:"
+
+#: themes/admin/UserSettings.php:132
+#@ starbox
+msgid "Instagram:"
+msgstr "Instagram:"
+
+#: themes/admin/UserSettings.php:133
+#@ starbox
+msgid "Flickr:"
+msgstr "Flickr:"
+
+#: themes/admin/UserSettings.php:134
+#@ starbox
+msgid "Pinterest:"
+msgstr "Pinterest:"
+
+#: themes/admin/UserSettings.php:135
+#@ starbox
+msgid "Tumblr:"
+msgstr "Tumblr:"
+
+#: themes/admin/UserSettings.php:136
+#@ starbox
+msgid "YouTube:"
+msgstr "YouTube:"
+
+#: themes/admin/UserSettings.php:137
+#@ starbox
+msgid "Vimeo:"
+msgstr "Vimeo:"
+

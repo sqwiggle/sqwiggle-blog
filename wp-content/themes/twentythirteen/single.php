@@ -8,21 +8,36 @@
  */
 
 get_header(); ?>
-
-<!--<div class="image-credit">
-	<span>Image Credit:</span>
-	<a href="<?php echo $custom_fields["Image Credit URL"][0] ?>" target="_blank"><?php echo $custom_fields["Image Credit"][0] ?></a>
-</div>-->
+<?php $custom_fields = get_post_custom($post_id); ?>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-
 				<?php get_template_part( 'content', get_post_format() ); ?>
 				<?php twentythirteen_post_nav(); ?>
+				
+				<!--
 				<div style="margin: 0 auto; width: 850px; background-size:950px 633px; height: 100px; background-position: center; margin-bottom: 100px;" class="sqwiggle_cta">
 					<a href="http://www.sqwiggle.com?utm_campaign=blog" style="float: left"><img src="/wp-content/uploads/2013/11/sqwiggle_logo.png" alt="Sqwiggle" />Work has changed. Join the Sqwiggle revolution.</a>
+				</div>
+				-->
+				<div class="post_cta">
+					<?php echo $custom_fields["CTA"][0] ?>
+				</div>
+				<div class="subscribe_cta">
+					<!--HubSpot Call-to-Action Code -->
+					<span class="hs-cta-wrapper" id="hs-cta-wrapper-d6dbc103-aee5-4f41-a371-249473203556">
+					    <span class="hs-cta-node hs-cta-d6dbc103-aee5-4f41-a371-249473203556" id="hs-cta-d6dbc103-aee5-4f41-a371-249473203556">
+						<!--[if lte IE 8]><div id="hs-cta-ie-element"></div><![endif]-->
+						<a href="http://cta-redirect.hubspot.com/cta/redirect/329768/d6dbc103-aee5-4f41-a371-249473203556"><img class="hs-cta-img" id="hs-cta-img-d6dbc103-aee5-4f41-a371-249473203556" style="border-width:0px;" src="https://no-cache.hubspot.com/cta/default/329768/d6dbc103-aee5-4f41-a371-249473203556.png" /></a>
+					    </span>
+					    <script charset="utf-8" src="https://js.hscta.net/cta/current.js"></script>
+						<script type="text/javascript">
+						    hbspt.cta.load(329768, 'd6dbc103-aee5-4f41-a371-249473203556');
+						</script>
+					</span>
+					<!-- end HubSpot Call-to-Action Code -->
 				</div>
 				<div id="disqus_thread" style="width: 850px; margin: 0 auto;"></div>
 				<script type="text/javascript">
