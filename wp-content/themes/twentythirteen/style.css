@@ -1283,7 +1283,7 @@ h2.author-title {
 	margin-right: -60px;
 }
 
-.more-link {
+a.more-link {
 	padding: 10px 20px;
 	background: #69c04f;
 	float: left;
@@ -1295,9 +1295,10 @@ h2.author-title {
 	border-radius: 3px;
 }
 
-.entry-content .more-link:hover {
+a.more-link:hover {
 	color: #fff;
 	background: #73c45a;
+	text-decoration: none;
 }
 
 ul.post-meta {
